@@ -1,13 +1,8 @@
-import './App.css';
-import Dashboard from './containers/MainScreen/Dashboard';
 
+import Dashboard from "./containers/Dashboard/Dashboard";
 
 function App() {
-  return (
-    <>
-    <Dashboard/>
-    </>
-  );
+  return <Dashboard />;
 }
 
 export default App;

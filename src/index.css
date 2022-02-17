@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -19,36 +19,46 @@ code {
 .textAlignCenter {
   text-align: center;
 }
+
 .mainDivStyle {
   background-color: lightgrey;
   text-align: center;
 }
+
 .formControlStyle {
   width: 100%;
 }
+
 .flexDivRow {
   display: flex;
   flex-direction: row;
   margin: 5px;
 }
+
 .label {
   align-self: center;
   margin-right: 5px;
 }
-.gridWrapperDiv{
+
+.gridWrapperDiv {
   padding: 15px;
 }
-.gridItem{
-padding:10px 10px;
+
+.gridItem {
+  width: 100%;
+  padding: 10px 10px;
 }
-.itemWrapperDiv{
+
+.itemWrapperDiv {
   display: flex;
   flex-direction: column;
 }
-.itemImage{
+
+.itemImage {
   border-radius: 15px 15px 0px 0px;
 }
-.nameWrapperDiv{
-    background-color: white;
-    border-radius: 0px 0px 15px 15px;
+
+.nameWrapperDiv {
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
 }
